@@ -9,14 +9,19 @@
     clear: both;
 }
 
-#aside {
+/* aside {
     float: right;
     background-color: #df5555;
     width: 10%;
-}
-
-section {
-    width: 80%;
+} */
+.container{
+    width: 100%;
+    background-color: #ffffff;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: left;
+    align-items: center;
 }
 
 #batik {
