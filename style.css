@@ -1,16 +1,15 @@
-
-    .home {
-        background-color: #f5f5f5;
-        padding: 20px;
-        margin: 20px;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        box-shadow: 0 0 10px #ccc;
-    }
-    .h1 {
-        font-size: 2em;
-        font-weight: bold;
-        color: rgb(249, 21, 21);
-        margin: 0;
-        padding: 0;
-    }
+#about{
+    background-color: aqua;
+    background-image: "pexels-pixabay-267639.jpg";
+    width: fit-content;
+    height: fit-content
+}
+aside {
+    width: 20%;
+    padding-left: 15px;
+    margin-left: 15px;
+    padding-right: 20px;
+    float: right;
+    font-style: italic;
+    background-color: lightgray;
+  }
