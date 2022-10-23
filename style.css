@@ -1,31 +1,21 @@
 #about{
-    
     text-align: center;
-    background-image: "pexels-pixabay-267639.jpg";
     width: fit-content;
     height: fit-content;
     color: rgb(204, 93, 248);
 }
 aside {
-    padding-left: 20px;
     float: right;
     background-color : #cccccc;
-    width : 300px;
+    width : wrap-content;
 }
-body{
-    display: flex;
-    flex-direction: column
+section{
+    float: left;
+    width : 80%;
 }
-#batik{
-    width: 75%;
-    float : left;
-    text-align: justify;
-    background-position: center;
-    background-attachment: fixed;
-    background-color: rgb(255, 255, 255);
-}
-/* footer{
+footer{
     min-height: fit-content;
-    position: relative;
+    position: fixed;
+    padding: auto;
     bottom: 0;
-} */
+}
