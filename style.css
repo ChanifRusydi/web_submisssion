@@ -1,15 +1,40 @@
 #about{
+    
+    text-align: center;
     background-image: "pexels-pixabay-267639.jpg";
     width: fit-content;
     height: fit-content;
     color: rgb(204, 93, 248);
 }
 aside {
-    width: 20%;
-    padding-left: 15px;
-    margin-left: 15px;
-    padding-right: 20px;
-    float: right;
+    display: flex;
+    flex-direction: column;
+    float: right; 
     font-style: italic;
-    background-color: lightgray;
+    background-color: rgb(190, 189, 189);
   }
+#article_section{
+    width: 80%;
+    float: left;
+}
+#footer_section{
+    width: 20%;
+    float: right;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+#batik{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: rgb(255, 255, 255);
+}
+/* footer{
+    min-height: fit-content;
+    position: relative;
+    bottom: 0;
+} */
