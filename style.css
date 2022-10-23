@@ -1,8 +1,8 @@
 #about{
-    background-color: aqua;
     background-image: "pexels-pixabay-267639.jpg";
     width: fit-content;
-    height: fit-content
+    height: fit-content;
+    color: rgb(204, 93, 248);
 }
 aside {
     width: 20%;
