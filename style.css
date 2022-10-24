@@ -87,3 +87,6 @@ footer {
     align-items: center;
     justify-content: center;
 }
+#foto{
+    border-radius: 50%;
+}
